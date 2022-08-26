@@ -1,0 +1,18 @@
+<p>userform works!</p>
+
+<h1></h1>
+
+<span>{{title}}</span>
+<input type="text" [(ngModel)]=userDetails.firstname placeholder="Enter your first name"/>
+<br>
+<br> 
+<span>Last name goes here</span>
+<input type="text" [(ngModel)]=userDetails.lastname placeholder="Enter your last name"/>
+<br>
+<br>
+<span>Age</span>
+<input type="number" [(ngModel)]=userDetails.age placeholder="Enter your age"/>
+
+<br>
+<br>
+<button (click)="save()">Save user</button> 
